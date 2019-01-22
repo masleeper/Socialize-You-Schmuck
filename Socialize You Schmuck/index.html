@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html ng-app="Socialize">
+    <head>
+       <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-route.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-cookies.min.js"></script>
+        <script type="text/javascript" src="socialize.js"></script>
+        <link rel="stylesheet" type="text/css" href="app.css">
+        <title>Socialize You Schmuck</title>
+    </head>
+    <body ng-controller="MainCtrl as main">
+        <p style="cursor:pointer; position:fixed; right:10px; top:0px;" ng-click="main.logout()">{{main.log}}</p>
+        <ng-view></ng-view>
+    </body>
+</html>

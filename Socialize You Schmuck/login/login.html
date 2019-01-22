@@ -1,0 +1,7 @@
+<form>
+    <input type="text" id="login_un" placeholder="Username" ng-model="login.username">
+    <input type="password" id="login_pw" placeholder="Password" ng-model="login.password">
+    <button type="submit" id="login_submit" ng-click="login.login()">Login</button>
+</form>
+<p style="position: fixed; left: 41%; top: 105px;">New user? Create account <a href="#create">here</a></p>
+<p>{{login.valid}}</p>

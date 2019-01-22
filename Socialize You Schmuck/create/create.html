@@ -1,0 +1,6 @@
+<form>
+    <input type="text" id="create_user" placeholder="Enter a username" ng-model="create.un">
+    <input type="password" id="create_pw" placeholder="Enter a password" ng-model="create.pw">
+    <button type="submit" id="create_submit" ng-click="create.send()">Create User</button>
+</form>
+<p>{{create.validUn}}</p>

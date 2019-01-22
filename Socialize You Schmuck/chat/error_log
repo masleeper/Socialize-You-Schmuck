@@ -1,0 +1,7 @@
+[22-Apr-2016 13:16:17 America/Chicago] PHP Fatal error:  Call to undefined function get_file_contents() in /home3/teacher/public_html/vma4035/Socialize You Schmuck/chat/send.php on line 3
+[27-Apr-2016 19:15:08 America/Chicago] PHP Warning:  mysqli_escape_string() expects exactly 2 parameters, 1 given in /home3/teacher/public_html/vma4035/Socialize You Schmuck/chat/send.php on line 6
+[27-Apr-2016 19:15:34 America/Chicago] PHP Warning:  mysqli_escape_string() expects exactly 2 parameters, 1 given in /home3/teacher/public_html/vma4035/Socialize You Schmuck/chat/send.php on line 6
+[27-Apr-2016 19:53:52 America/Chicago] PHP Warning:  mysqli_escape_string() expects exactly 2 parameters, 1 given in /home3/teacher/public_html/vma4035/Socialize You Schmuck/chat/send.php on line 6
+[28-Apr-2016 11:14:46 America/Chicago] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home3/teacher/public_html/vma4035/Socialize You Schmuck/chat/send.php on line 7
+[28-Apr-2016 11:15:11 America/Chicago] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home3/teacher/public_html/vma4035/Socialize You Schmuck/chat/send.php on line 7
+[10-May-2016 23:33:10 America/Chicago] PHP Fatal error:  Call to a member function execute() on a non-object in /home3/teacher/public_html/vma4035/Socialize You Schmuck/chat/getFriends.php on line 6

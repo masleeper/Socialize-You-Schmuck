@@ -1,0 +1,10 @@
+[07-May-2016 19:10:56 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'teacher_vma4035'@'localhost' (using password: YES)' in /home3/teacher/public_html/vma4035/Socialize You Schmuck/create/send.php:6
+Stack trace:
+#0 /home3/teacher/public_html/vma4035/Socialize You Schmuck/create/send.php(6): PDO->__construct('mysql:host=loca...', 'teacher_vma4035', 'Shini_Gami42424...')
+#1 {main}
+  thrown in /home3/teacher/public_html/vma4035/Socialize You Schmuck/create/send.php on line 6
+[07-May-2016 19:11:31 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'teacher_vma4035'@'localhost' (using password: YES)' in /home3/teacher/public_html/vma4035/Socialize You Schmuck/create/send.php:6
+Stack trace:
+#0 /home3/teacher/public_html/vma4035/Socialize You Schmuck/create/send.php(6): PDO->__construct('mysql:host=loca...', 'teacher_vma4035', 'Shini_Gami42424...')
+#1 {main}
+  thrown in /home3/teacher/public_html/vma4035/Socialize You Schmuck/create/send.php on line 6

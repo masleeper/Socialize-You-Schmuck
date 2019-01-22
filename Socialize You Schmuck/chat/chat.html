@@ -1,0 +1,15 @@
+<p id="chat_user">{{chat.user}}</p>
+<a id="chat_request" href="#request">Add Friend</a>
+<p style="position:fixed; top:70px;">Friends</p>
+<table id="chat_friends">
+    <tr ng-repeat="friend in chat.friends">
+        <td style="cursor:pointer;" ng-click="chat.setPartner(friend)">{{friend}}</td>
+    </tr>
+</table>
+<div id="chat_view">
+    <p ng-repeat="message in chat.messages">{{message.text}}</p>
+</div>
+<form>
+    <input type="text" id="chat_input" ng-model="chat.message">
+    <button type="submit" id="chat_submit" ng-click="chat.send();">Send</button>
+</form>

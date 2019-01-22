@@ -1,0 +1,5 @@
+[19-Apr-2016 23:14:39 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, string given in /home3/teacher/public_html/vma4035/Socialize You Schmuck/login/send.php on line 9
+[19-Apr-2016 23:14:39 America/Chicago] PHP Fatal error:  Call to undefined function myslqi_fetch_assoc() in /home3/teacher/public_html/vma4035/Socialize You Schmuck/login/send.php on line 10
+[19-Apr-2016 23:15:36 America/Chicago] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home3/teacher/public_html/vma4035/Socialize You Schmuck/login/send.php on line 7
+[19-Apr-2016 23:17:58 America/Chicago] PHP Fatal error:  Call to undefined function myslqi_fetch_assoc() in /home3/teacher/public_html/vma4035/Socialize You Schmuck/login/send.php on line 10
+[22-Apr-2016 12:52:49 America/Chicago] PHP Fatal error:  Call to undefined function get_file_contents() in /home3/teacher/public_html/vma4035/Socialize You Schmuck/login/userid.php on line 3

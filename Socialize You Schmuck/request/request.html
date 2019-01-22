@@ -1,0 +1,14 @@
+<p>Send Request</p>
+<form>
+    <input type="text" id="request_id" placeholder="Username of potential schmucky friend" ng-model="request.user">
+    <button type="submit" id="request_send" ng-click="request.send();">Send</button>
+</form>
+
+<p>Your pending requests</p>
+<table>
+    <tr ng-repeat="request in request.pending">
+        <td>{{request}}</td>
+        <td style="text-decoration:underline; cursor:pointer;" ng-click="$parent.request.accept(request);">Accept</td>
+        <td style="text-decoration:underline; cursor:pointer;" ng-click="$parent.request.decline(request);">Decline</td>
+    </tr>
+</table>
